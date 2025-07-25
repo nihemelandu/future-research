@@ -15,6 +15,10 @@ Within each segment, go beyond surface-level associations. Identify causal drive
 
 - **Anomaly Detection:**
 Use anomaly detection models to flag deviations from expected behavior. This helps contain disruptions by triggering early warnings, allowing rapid response to prevent cascading failures or inefficiencies.
+
+<!--
+While uncertainty is a defining feature of supply chains, optimal performance comes from reducing variability where possible and managing it smartly where not. Segmentation, causal understanding, and anomaly detection are critical tools in achieving this balance.
+-->
 ---
 
 ### 🎯 Research Objectives
