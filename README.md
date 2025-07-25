@@ -27,7 +27,7 @@ Use anomaly detection models to flag deviations from expected behavior. This hel
 #### 🔍 Domain Focus
 
 
-
+<!--
 - **Industry selection**: Retail, e-commerce, or manufacturing (TBD)
 - **Customer behavior metrics**:
   - Purchasing patterns
@@ -41,11 +41,11 @@ Use anomaly detection models to flag deviations from expected behavior. This hel
   - Flexibility and cost efficiency
 - **Significance threshold**:  
   Not all statistically significant effects are **operationally meaningful**—this research will prioritize interventions with **practical impact**.
-
 ---
+-->
 
 ### 🛠️ Methodology
-
+<!--
 To address the causal questions at the heart of this work, a hybrid approach will be employed, drawing from structural models, quasi-experiments, causal machine learning, and simulation.
 
 ---
@@ -89,9 +89,9 @@ Simulation will be used to model dynamics that are hard to capture empirically:
 Simulation allows us to **stress-test** causally-informed strategies in synthetic but realistic environments.
 
 ---
-
+-->
 ### 📏 Evaluation Strategy
-
+<!--
 #### 🔬 Simulation Validation
 
 - **Historical backtesting**: Compare simulation outcomes to observed behavior
@@ -105,7 +105,7 @@ Simulation allows us to **stress-test** causally-informed strategies in syntheti
 - **Counterfactual testing**: Can the models answer "what-if" questions reliably?
 
 ---
-
+-->
 ### 🔄 Future Directions
 
 
