@@ -1,19 +1,18 @@
-## 📦 Research Plan: Causal Dynamics Between Customer Behavior and Supply Chain Operations
+## 📦 Research Plan: Optimizing the Supply Chain in the Face of Uncertainty
 
 ### 🧭 Overview
+An **optimal supply chain** is one that is stable, predictable, and characterized by low variability. However, in reality, supply chains operate under constant uncertainty—driven by demand fluctuations, supply disruptions, lead time variability, and external shocks.
 
-This research aims to investigate the **bidirectional relationship** between algorithmic customer interactions and supply chain operations. Specifically, it explores how **digital experiences and demand signals** influence procurement, inventory, and fulfillment—and how those operational realities, in turn, shape **customer experience and satisfaction**.
+As a result, the goal shifts from eliminating uncertainty (which is often impossible) to reducing variability where possible, and containing it where necessary.
 
-The end goal is to improve **decision quality** and **operational efficiency** in complex, dynamic supply chain environments using robust causal reasoning and system modeling.
+To achieve this, three key strategies could be applied:
 
+- **Segmentation:**
+Break down the supply chain into smaller, manageable segments based on product type, customer behavior, demand patterns, or service levels. This allows for more targeted strategies and localized optimization.
 ---
 
 ### 🎯 Research Objectives
 
-- Determine whether changes in customer behavior **cause** operational impacts, or are merely correlated.
-- Evaluate whether improvements in supply chain performance **lead to** measurable gains in customer satisfaction or loyalty.
-- Model and simulate feedback loops between demand-side behaviors and supply-side constraints.
-- Inform **intervention design** that aligns customer-facing decisions with operational capabilities.
 
 ---
 
@@ -21,7 +20,7 @@ The end goal is to improve **decision quality** and **operational efficiency** i
 
 #### 🔍 Domain Focus
 
-To make this work tractable and actionable, the research will focus on a well-defined domain:
+
 
 - **Industry selection**: Retail, e-commerce, or manufacturing (TBD)
 - **Customer behavior metrics**:
@@ -47,31 +46,14 @@ To address the causal questions at the heart of this work, a hybrid approach wil
 
 #### 🧠 1. Structural Causal Models (SCM)
 
-SCMs will serve as the **core reasoning framework** for this research:
 
-- **Causal DAGs (Directed Acyclic Graphs)** to explicitly express assumptions
-- **Structural Equations** to model data-generating processes
-- **do-Calculus** to derive valid interventional estimands
-- **Identification analysis**: Determine whether effects of interest can be identified from available data
-- **Toolkits**: [`DoWhy`](https://github.com/py-why/dowhy), [`DAGitty`](http://www.dagitty.net/), `causalgraphicalmodels`, `Ananke`
-
-SCMs provide conceptual rigor and clarity in defining what can (and cannot) be learned from observational data.
 
 ---
 
 #### 🧪 2. Quasi-Experimental Designs
 
-To estimate causal effects from historical or operational data without randomization:
 
-- **Interrupted Time Series (ITS)**
-- **Synthetic Control Methods**
-- **Stepped-Wedge Rollout Designs**
-- **Panel Event Study Designs**
-- **Difference-in-Differences (DiD)**
-- **Regression Discontinuity / Kink Designs**
-- **Propensity Score Matching / Weighting**
 
-These methods leverage **natural experiments, system rollouts, shocks, or thresholds**—common in supply chain and digital environments.
 
 ---
 
@@ -120,8 +102,6 @@ Simulation allows us to **stress-test** causally-informed strategies in syntheti
 
 ### 🔄 Future Directions
 
-- Model **algorithmic feedback loops**, e.g., recommender systems affecting demand patterns, which then affect fulfillment capabilities.
-- Extend to **omnichannel environments** where customer behavior spans physical and digital touchpoints.
-- Explore real-time adaptive decision systems combining causal inference with online learning or reinforcement learning.
+
 
 ---
