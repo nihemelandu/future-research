@@ -25,7 +25,7 @@ Use anomaly detection models to flag deviations from expected behavior. This hel
 ### 🧩 Research Scope
 
 #### 🔍 Domain Focus
-
+---
 
 <!--
 - **Industry selection**: Retail, e-commerce, or manufacturing (TBD)
@@ -88,8 +88,9 @@ Simulation will be used to model dynamics that are hard to capture empirically:
 
 Simulation allows us to **stress-test** causally-informed strategies in synthetic but realistic environments.
 
----
+
 -->
+---
 ### 📏 Evaluation Strategy
 <!--
 #### 🔬 Simulation Validation
@@ -106,6 +107,7 @@ Simulation allows us to **stress-test** causally-informed strategies in syntheti
 
 ---
 -->
+---
 ### 🔄 Future Directions
 
 
