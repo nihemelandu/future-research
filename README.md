@@ -9,6 +9,12 @@ To achieve this, three key strategies could be applied:
 
 - **Segmentation:**
 Break down the supply chain into smaller, manageable segments based on product type, customer behavior, demand patterns, or service levels. This allows for more targeted strategies and localized optimization.
+
+- **Shift from Correlation to Causality:**
+Within each segment, go beyond surface-level associations. Identify causal drivers of variability to enable more effective interventions and decision-making. Understanding “why” variability occurs is more powerful than just knowing “when” it does.
+
+- **Anomaly Detection:**
+Use anomaly detection models to flag deviations from expected behavior. This helps contain disruptions by triggering early warnings, allowing rapid response to prevent cascading failures or inefficiencies.
 ---
 
 ### 🎯 Research Objectives
